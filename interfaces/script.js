@@ -3,7 +3,7 @@ const notificationAlert = new Audio(
   "https://cdn.jsdelivr.net/gh/Lake-ai/cdn-interface/Sound/message-notification.mp3"
 );
 window.chatbot.chatbotTitle = "AI Chatbot";
-window.chatbot.LLM = "Gemini";
+window.chatbot.LLM = "OpenAI";
 window.chatbot.initialMessage = "Hello! How can i assist you today ?";
 window.chatbot.brandImage =
   "https://cdn.jsdelivr.net/gh/Lake-ai/cdn-interface/chatbot.png";
