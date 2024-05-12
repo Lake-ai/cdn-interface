@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/apurvjha123/Chit-Chat-Server/js-interface/style.css">
+    <title>Chat Bot</title>
 </head>
 <body>
-    
+    <div id="chatbot"></div>
 </body>
+<script src="script.js"></script>
+<script>
+chatbot.setChatBotConfiguration({
+    apiKey: "$2b$10$kD7/PfqMjuPRlpy9jE7yJ.WxYJ.a9NwcbkWCisVi8mPE13IKj0jmm",
+    chatbotTitle: "Chat bot",
+    LLM:"OpenAI",
+    initialMessage: "Hello! How Can I Assist You ?",
+    brandImage: "https://cdn.jsdelivr.net/gh/Lake-ai/cdn-interface/chatbot.png",
+    suggestions :[],
+    rateLimitDuration : 5000
+    });
+</script>
 </html>
+       
