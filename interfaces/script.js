@@ -451,7 +451,7 @@ async function generateAnswares(userQuestion) {
 
     const payloadBody = {
       prompt: userQuestion,
-      llm:LLM
+      llm:chatbot.LLM
     };
 
     const response = await fetch(chatAPIUrl, {
